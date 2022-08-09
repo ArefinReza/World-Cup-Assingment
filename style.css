@@ -1,5 +1,9 @@
 /* Common style */
 body{
+    margin: 0;
+    font-family: 'Righteous', cursive;
+}
+main{
     margin-top: 50px;
     margin-left: 150px;
     margin-right: 150px;
@@ -33,4 +37,69 @@ body{
 }
 .banner-img{
     height: 550px;
+}
+/* Start 2nd section
+----------------------------- */
+.section-two{
+    display: flex;
+    margin-top: 70px;
+}
+.left-small-div{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    justify-content: center;
+    text-align: center;
+    border-radius: 18px;
+    padding: 25px 2px 25px 2px ;
+    margin-right: 20px;
+    background-color: black;
+    width: 270px;
+    height: 220px;
+}
+.leftblog button{
+    font-size: 20px;
+    padding: 18px;
+    width: 100%;
+    border-radius: 10px;
+}
+.live-matchs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.match{
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px gray;
+    width: 290px;
+}
+.match-picture{
+    width: 100%;
+}
+.details{
+    margin-left: 10px;
+    margin-top: 8px;
+}
+.time{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    color: rgb(41, 36, 36);
+    padding-bottom: 10px;
+}
+/* end 2nd section
+------------------------- */
+/* footer
+------------- */
+.goal{
+    margin-top: 70px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    background-color: rgb(30, 30, 35);
+    color: white;
+}
+.goal h2{
+    font-size: 35px;
+}
+hr{
+    color: gray;
 }
