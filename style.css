@@ -1,0 +1,36 @@
+/* Common style */
+body{
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+/* top section start */
+.banner{
+    display: flex;
+    background-color: rgb(29, 27, 27);
+    color: white;
+    border-radius: 50px;
+}
+.text-banner{
+    padding: 40px 40px 20px 100px;
+}
+.text-banner h1{
+    font-size: 70px;
+    margin-bottom: 0;
+}
+.live{
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 3px 7px black;
+}
+.pic-banner{
+    width: 100%;
+}
+.banner-img{
+    height: 550px;
+}
